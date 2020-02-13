@@ -1,2 +1,77 @@
-Hello World
-<link rel="stylesheet" href="main.css">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>githubio</title>
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/logo.png">
+  
+    <link rel="stylesheet" href="font/css/all.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body class="d-flex flex-column" style="min-height:100vh;overflow-x:hidden"> 
+
+
+<div class="jumbotron jumbotron-fluid special-color white-text py-3 z-depth-1  text-uppercase text-center h2">
+la bibliothèque nationale
+</div>
+
+<div class="row  my-5">
+  <div class="col-md-6 mx-auto mt-4">
+   
+   <div class="card card-body grey z-depth-1 lighten-1 ">
+      <h2>Formulaire d'inscription à la bibliothèque nationale</h2>
+      <p>Veuillez svp remplir les informations vous concernant</p>
+      
+      <form action="#" method="post" enctype="multipart/form-data">
+
+        <div class="form-group">
+          <label for="nom"> Nom:<sup>*</sup> </label>
+          <input type="text" name="nom" class="form-control form-control-lg ">
+        </div>
+
+        <div class="form-group">
+          <label for="prenom"> Prénom:<sup>*</sup> </label>
+          <input type="text" name="prenom" class="form-control form-control-lg  ">
+        </div>
+
+        <!-- adding image -->
+        <div class="form-group mt-4">
+          
+            <label for="userImg">Choisir une image: </label>
+            <input  name="userImg" type="file" accept="image/png, image/jpeg" >
+          
+        </div>
+
+      
+      <button id="addSubmit" type="submit"  style="font-size:20px" class="btn rounded font-weight-bold white-text default-color-dark waves-effect  btn-block">
+      Récupérer le document PDF
+      </button>
+
+      </form>
+
+   </div><!-- card -->
+  </div><!-- col -->
+</div><!-- row -->
+
+
+<footer class="special-color darken-1 mt-auto py-4 " style="min-width:100vw">
+    <h5 class="text-muted text-center " style="line-height:41px">&copy;  BARHOUMI MED CHAWKI Dev App. Tel 55 385 474</h5>
+</footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/mdb.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
